@@ -91,10 +91,10 @@ For the passengers picked up in the zone named "East Harlem North" in November 2
     SELECT T.*
 
     FROM (SELECT T_."PULocationID", 
-                PUZ."Zone" AS PUZone, 
-                T_."DOLocationID",
-                DOZ."Zone" AS DOZone,
-                T_.tip_amount
+                 PUZ."Zone" AS PUZone, 
+                 T_."DOLocationID",
+                 DOZ."Zone" AS DOZone,
+                 T_.tip_amount
                 
           FROM public.ny_green_taxi_trips T_
           LEFT JOIN public.ny_trip_zones PUZ
