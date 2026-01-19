@@ -107,3 +107,8 @@ For the passengers picked up in the zone named "East Harlem North" in November 2
     ORDER BY T.tip_amount DESC
     LIMIT 1
     ;
+
+<b> Question 7. Terraform Workflow </b>
+
+    Answer: 
+        terraform init, terraform apply -auto-approve, terraform destroy

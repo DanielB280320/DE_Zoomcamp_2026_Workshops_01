@@ -1,0 +1,2 @@
+# Ignore JSON file that contains service account credentials.
+*.JSON
